@@ -8,6 +8,9 @@ app:
 spring:
 
   application.name: delivery-service
+  security:
+    basic:
+       enabled: false
 
   kafka:
     bootstrap-servers: localhost:9092
